@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repaso HTML</title>
+</head>
+<body>
+    <h1>Repaso HTML</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas vitae nisi iusto debitis asperiores accusamus quibusdam, exercitationem similique, qui placeat assumenda quisquam culpa porro possimus. Earum et expedita vel debitis!.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas vitae nisi iusto debitis asperiores accusamus quibusdam, exercitationem similique, qui placeat assumenda quisquam culpa porro possimus. Earum et expedita vel debitis!.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas vitae nisi iusto debitis asperiores accusamus quibusdam, exercitationem similique, qui placeat assumenda quisquam culpa porro possimus. Earum et expedita vel debitis!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas <small>vitae nisi iusto</small> debitis asperiores accusamus quibusdam, exercitationem similique, qui placeat assumenda quisquam culpa porro possimus. Earum et expedita vel debitis!.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas vitae nisi iusto debitis asperiores accusamus quibusdam, exercitationem similique, qui placeat assumenda quisquam culpa porro possimus. Earum et expedita vel debitis!.Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/><br/><br/>Voluptas vitae nisi iusto debitis asperiores accusamus quibusdam, exercitationem similique, qui placeat assumenda quisquam culpa porro possimus. Earum et expedita vel debitis!</p>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto a odit nulla delectus veniam, fugiat cum ullam, suscipit sunt adipisci quo, neque minima sequi soluta at eius debitis obcaecati ab?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto a odit nulla delectus veniam, fugiat cum ullam, suscipit sunt adipisci quo, neque minima sequi soluta at eius debitis obcaecati ab?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto a odit nulla delectus veniam, <a href="https://www.utpl.edu.ec">fugiat cum ullam</a>, suscipit sunt adipisci quo, neque minima sequi soluta at eius debitis obcaecati ab?</p>
+    <h2>Menu 1</h2>
+    <nav>
+        <ul>
+            <li><a href="https://www.utpl.edu.ec">Inicio</a></li>
+            <li>Contactos</li>
+            <li>Servicios</li>
+        </ul>
+    </nav>
+    <h2>Menu 2</h2>
+        <ul>
+            <li><a href="https://www.utpl.edu.ec">Inicio</a></li>
+            <li>Contactos</li>
+            <li>Servicios</li>
+        </ul>
+    </h2>
+    <h2>Lista</h2>
+        <ol>
+            <li>pato</li>
+            <li>gato</li>
+            <li>pez</li>
+        </ol>
+    <h2>Imágenes</h2>
+    <img src="../img/banderaloja.png" alt="Bandera de Loja">
+    <a href="https://www.utpl.edu.ec"><img src="../img/banderaloja.png" alt="Bandera de Loja"></a>
+    <h3>Tablas</h3>
+        <table class="estilo_tabla">
+            <tr>
+                <td>Ciudad</td>
+                <td>Tiempo</td>
+            </tr>
+            <tr>
+                <td>Nueva York</td>
+                <td>1 h 51 min</td>
+            </tr>
+            <tr>
+                <td>Allentown</td>
+                <td>1 h 11 min</td>
+            </tr>
+            <tr>
+                <td>Reading</td>
+                <td>1 h 12 min</td>
+            </tr>
+      </table>
+      <table>
+        <tr>
+          <th>Destino</th>
+          <th>En auto</th>
+          <th>En tren</th>
+          <th>En bicicleta</th>
+        </tr>
+        <tr>
+          <td>Nueva York</td>
+          <td>1 h 51 min</td>
+          <td>1 h 22 min</td>
+          <td>8 h 53 min</td>
+        </tr>
+        <tr>
+          <td>Allentown</td>
+          <td>1 h 11 min</td>
+          <td>-</td>
+          <td>6 h 9 min</td>
+        </tr>
+        <tr>
+          <td>Reading</td>
+          <td>1 h 12 min</td>
+          <td>-</td>
+          <td>5 h 40 min</td>
+        </tr>
+      </table>
+    <h2>Formularios</h2>
+    <form action="../../form-result.php" method="get" target="_blank">
+        <fieldset>
+          <legend>Información básica</legend>
+          <p><label>Nombre completo: <input type="text" name="nombrecompleto"></label></p>
+          <p><label>Fecha de nacimiento: <input type="date" name="fechadenacimiento"></label></p>
+          <p>Gender:
+            <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+            <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+          </p>
+          <p><label>Dirección: <input type="text" name="direccion"></label></p>
+          <p><label>Número telefónico: <input type="tel" name="telefono"></label></p>
+        </fieldset>
+        <fieldset>
+          <legend>Información extra</legend>
+          <p>Interests:
+            <label><input type="checkbox" name="libros"> Libros</label>
+            <label><input type="checkbox" name="peliculas"> Películas</label>
+            <label><input type="checkbox" name="videojuegos"> Videojuegos</label>
+          </p>
+          <p><label>Color favorito: <input type="color" name="colorfavorito"></label></p>
+        </fieldset>
+        <p>
+          <input type="submit" value="Enviar datos">
+          <input type="reset" value="Restaurar formulario">
+        </p>
+      </form>
+      <video src=""></video>
+      <h2>Etiquetas HTML5</h2>
+      <aside>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere mollitia minus repudiandae perspiciatis! Fugit debitis sequi mollitia, temporibus molestiae doloribus repellendus ipsam quo dolor laudantium repudiandae sapiente optio error id.</p>
+      </aside>
+      <article>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem atque blanditiis, eaque incidunt repellendus id ipsum nemo illum iure modi? Tenetur minima debitis itaque dolorem molestias, corrupti maiores? Dicta, assumenda?</p>
+      </article>
+      <section>
+            <article>
+                <h1>titulo</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eaque culpa iste architecto similique totam corrupti quisquam commodi assumenda itaque, dicta unde voluptates nisi? Quas laboriosam facilis dolorum quam velit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eum, praesentium perspiciatis sint aliquam numquam iure blanditiis accusantium veniam inventore magni neque, facere, placeat culpa rerum quas eveniet quisquam non.</p>
+            </article>
+            <article>
+                <header>Cabecera</header>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eaque culpa iste architecto similique totam corrupti quisquam commodi assumenda itaque, dicta unde voluptates nisi? Quas laboriosam facilis dolorum quam velit.</p>
+                <footer>Pie</footer>
+            </article>
+      </section>
+      <article>
+            <section>Noticias</section>
+            <section>Videos</section>
+      </article>
+</body>
+</html>
